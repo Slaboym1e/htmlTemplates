@@ -17,6 +17,7 @@ header {
 
 nav {
     display: flex;
+    height: 90px;
 }
 
 nav>a>img {
@@ -27,7 +28,7 @@ nav>ul {
     list-style: none;
     display: flex;
     column-gap: 34px;
-    margin: 33px auto 34px 0;
+    margin: 33px auto 30px 0;
     padding-left: 0;
 }
 
@@ -37,6 +38,26 @@ nav>ul>li>a {
     font-size: 16px;
     color: #050038;
     line-height: 24px;
+}
+
+.langimg {
+    margin: 33px 88px 34px 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.reglink {
+    color: #FFF;
+    height: 50px;
+    text-align: center;
+    margin: 20px 20px 21px 0;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 25px 12px 26px;
+    text-decoration: none;
+    border-radius: 24px;
+    border: 1px solid #4262FF;
+    background: #4262FF;
 }
 
 main {
