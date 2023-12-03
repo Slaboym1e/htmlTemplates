@@ -1,0 +1,29 @@
+.button {
+    color: var(--White);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 15px 31px;
+    box-sizing: border-box;
+}
+
+.button_primary {
+    background-color: var(--Violet);
+    border: 1px solid var(--Violet, #4D5064);
+}
+
+.button_secondary {
+    background: none;
+    border: 1px solid var(--Gray-stroke, #4D5064);
+}
+
+.button_secondary:hover {
+    background-color: var(--Violet-dark);
+}
+
+@media (max-width: 586px) {
+    .button {
+        padding: 11px 23px;
+    }
+}

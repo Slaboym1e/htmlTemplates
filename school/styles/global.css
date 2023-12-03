@@ -1,0 +1,21 @@
+:root {
+    --White: #FAFAFA;
+    --Violet: #6C38CC;
+    --Violet-dark: #2E2D3D;
+    --Gray-dark: #1E1F29;
+    --Gray-stroke: #4D5064;
+    --Gray: #AFB2BF;
+    --Black: #16171D;
+    --Pink: #E47AD5;
+}
+
+body {
+    margin: 0;
+    background: var(--Black);
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
