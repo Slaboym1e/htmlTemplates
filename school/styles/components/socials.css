@@ -1,0 +1,11 @@
+.socials {
+    display: flex;
+    gap: 24px;
+}
+
+.socials__link {
+    border: 1px solid var(--Gray-stroke, #4D5064);
+    border-radius: 7px;
+    padding: 10px;
+    height: 24px;
+}

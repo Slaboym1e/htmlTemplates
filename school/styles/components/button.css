@@ -6,6 +6,7 @@
     line-height: 120%;
     padding: 15px 31px;
     cursor: pointer;
+    height: 53px;
 }
 
 .button_primary {
@@ -17,6 +18,8 @@
     background: none;
     border: 1px solid var(--Gray-stroke, #4D5064);
 }
+
+
 
 .button_secondary:hover {
     background-color: var(--Violet-dark);

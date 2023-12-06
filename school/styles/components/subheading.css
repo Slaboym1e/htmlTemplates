@@ -1,0 +1,33 @@
+.subheading {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.subheading__super {
+    margin: 0;
+    color: var(--Pink, #E47AD5);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.subheading__main {
+    margin: 0;
+    color: var(--White, #FAFAFA);
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+@media (max-width: 586px) {
+    .subheading {
+        margin-bottom: 24px;
+    }
+
+    .subheading__main {
+        font-size: 34px;
+    }
+}

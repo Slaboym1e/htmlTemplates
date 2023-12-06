@@ -1,4 +1,8 @@
 footer {
+    background-color: var(--Footer-dark);
+}
+
+.footer__wrapper {
     max-width: 1172px;
     margin: 0 auto;
     padding: 60px 24px;
@@ -18,18 +22,6 @@ footer {
 
 .footer__links__logo {
     cursor: pointer;
-}
-
-.footer__socials {
-    display: flex;
-    gap: 24px;
-}
-
-.footer_socials__link {
-    border: 1px solid var(--Gray-stroke, #4D5064);
-    border-radius: 7px;
-    padding: 10px;
-    height: 24px;
 }
 
 .footer__copywrite {

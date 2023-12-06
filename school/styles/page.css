@@ -63,3 +63,140 @@
         width: 100%;
     }
 }
+
+.blog__wrapper {
+    max-width: 1172px;
+    margin: 0 auto;
+    padding: 100px 24px;
+}
+
+.blog__header {
+    margin-bottom: 48px;
+}
+
+.blog__p {
+    color: var(--White, #FAFAFA);
+    max-width: 787px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.articles {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.articles__item {
+    width: calc(100% - 40px - 32px);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Gray-dark);
+    padding: 35px 40px 32px 32px;
+    border-radius: 10px;
+}
+
+.articles__item__content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.articles__item__statistic {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.articles__item__statistic__unit {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--Gray, #AFB2BF);
+
+}
+
+.articles__item__statistic__unit p {
+    margin: 0;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.articles__item__content h3 {
+    margin: 0;
+    color: var(--White, #FAFAFA);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.articles__item__content>p {
+    color: var(--White, #FAFAFA);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 742px;
+    margin: 0;
+}
+
+.blog__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.blog__all-button {
+    margin: 0 auto 0 auto;
+}
+
+@media(max-width: 1200px) {
+    .blog__wrapper {
+        padding: 52px 24px 32px 24px;
+    }
+}
+
+
+@media(max-width: 990px) {
+    .blog__header {
+        margin-bottom: 24px;
+    }
+
+    .articles {
+        margin-bottom: 24px;
+    }
+
+    .articles__item {
+        width: calc(100% - 32px);
+        flex-direction: column;
+        padding: 24px 16px;
+    }
+
+    .articles__item__content {
+        margin-bottom: 16px;
+    }
+
+    .articles__item__content h3 {
+        font-size: 21px;
+    }
+
+    .articles__item__statistic {
+        gap: 16px;
+    }
+
+    .articles__item__statistic__unit p {
+        font-size: 14px;
+    }
+
+    .blog__all-button {
+        width: 100%;
+    }
+}
