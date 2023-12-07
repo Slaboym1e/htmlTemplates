@@ -200,3 +200,54 @@
         width: 100%;
     }
 }
+
+.courses {
+    max-width: 1172px;
+    margin: 0 auto;
+    padding: 100px 24px;
+}
+
+.courses__head {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.courses__chip-line {
+    display: flex;
+    gap: 24px;
+    flex-basis: content;
+    overflow-y: hidden;
+}
+
+.courses__chip-line::-webkit-scrollbar {
+    display: none;
+}
+
+.courses__cards {
+    display: grid;
+    gap: 70px;
+    grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
+}
+
+
+@media (max-width: 586px) {
+    .courses {
+        padding: 41px 24px;
+    }
+
+    .courses__chip-line {
+        gap: 16px;
+
+    }
+
+    .courses__head {
+        gap: 0;
+        margin-bottom: 24px;
+    }
+
+    .courses__cards {
+        gap: 24px;
+    }
+}

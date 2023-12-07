@@ -7,7 +7,10 @@
     padding: 15px 31px;
     cursor: pointer;
     height: 53px;
+    flex-shrink: 0;
 }
+
+
 
 .button_primary {
     background-color: var(--Violet);
@@ -29,4 +32,9 @@
     .button {
         padding: 11px 23px;
     }
+}
+
+.button_small {
+    padding: 7px 15px;
+    height: 38px;
 }
