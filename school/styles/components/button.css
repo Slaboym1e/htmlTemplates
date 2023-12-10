@@ -8,6 +8,7 @@
     cursor: pointer;
     height: 53px;
     flex-shrink: 0;
+    white-space: nowrap;
 }
 
 
