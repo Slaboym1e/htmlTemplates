@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/mainpage.css" />
+    <link rel="stylesheet" href="./styles/components/button.css" />
+    <link rel="stylesheet" href="./styles/components/card.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,9 +38,47 @@
           />
           Вход
         </a>
+        <img src="./images/menu.svg" alt="" class="mobile-menu" />
       </div>
     </header>
-    <main></main>
+    <main class="main">
+      <div class="main__head">
+        <h1>Заявки</h1>
+        <button class="button button_normal">Создать</button>
+      </div>
+      <div class="main__chips">
+        <button class="button button_normal">Все</button>
+        <button class="button button_normal">Назначенные</button>
+        <button class="button button_normal">Свободные</button>
+      </div>
+      <div class="card__wrapper">
+        <div class="card">
+          <div class="card__image-bg">
+            <img
+              src="./images/main_icons/desktop.svg"
+              alt="Логотип компьютера"
+              class="card__image"
+            />
+          </div>
+          <div class="card__main">
+            <div class="card__main__wrapper">
+              <div class="card__main__body">
+                <h2>Заголовок заявки</h2>
+                <p>
+                  Текст заявки. Таки сломался компьютер, триста лет ему, а он
+                  взял и поломался
+                </p>
+              </div>
+              <div class="card__main__buttons">
+                <button class="button button_small">Принять</button>
+                <button class="button button_small">Завершить</button>
+              </div>
+            </div>
+            <div class="card__main__footer"></div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>

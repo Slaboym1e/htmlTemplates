@@ -1,5 +1,6 @@
 .header {
-    border-bottom: 1px solid var(--white);
+    border-bottom: 1px solid var(--gray);
+    margin-bottom: 52px;
 }
 
 .header__wrapper {
@@ -45,4 +46,20 @@
 .header__prfile__logo {
     width: 36px;
     height: 36px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .mobile-menu {
+        display: block;
+        width: 36px;
+    }
+
+    .header__nav, .header__profile {
+        display: none;
+    }
 }
