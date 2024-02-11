@@ -1,0 +1,26 @@
+main {
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.main__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.main__head h1 {
+    margin: 0;
+    color: var(--Black);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.main__chips {
+    display: flex;
+    gap: 17px;
+    overflow-x: scroll;
+    margin-bottom: 39px;
+}
