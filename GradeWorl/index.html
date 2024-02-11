@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MainPage</title>
+    <!--App css-->
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/accordion.css" />
+    <link rel="stylesheet" href="./styles/pages/index.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./scripts/accordion.js" async></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">Content</div>
+    </header>
+    <main>
+      <h1>Список учеников</h1>
+      <!--разделить заголовок и тело аккордиона, сдеать css анимацию и скрипт раскрытия-->
+      <div class="accordion__wrapper">
+        <div class="accordion__main">
+          <div class="accordion__header">
+            <h2>5"T"</h2>
+          </div>
+          <div class="accordion__body">
+            <p class="accordion__item">Иванов Иван Иванович</p>
+            <p class="accordion__item">Иванов Иван Иванович</p>
+            <p class="accordion__item">Иванов Иван Иванович</p>
+            <p class="accordion__item">Иванов Иван Иванович</p>
+            <p class="accordion__item">Иванов Иван Иванович</p>
+            <p class="accordion__item">Иванов Иван Иванович</p>
+            <p class="accordion__item">Иванов Иван Иванович</p>
+            <p class="accordion__item">Иванов Иван Иванович</p>
+          </div>
+        </div>
+        <!---->
+        <div class="accordion__main">
+          <div class="accordion__header">
+            <h2>5"T"</h2>
+          </div>
+          <div class="accordion__body">
+            <p class="accordion__item">Иванов Иван Иванович</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

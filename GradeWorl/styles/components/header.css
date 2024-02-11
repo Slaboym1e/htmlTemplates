@@ -1,0 +1,6 @@
+.header {
+    background-color: var(--header_background);
+    border-radius: var(--radius_8);
+    height: 56px;
+    margin: 6px 6px 48px 6px;
+}
