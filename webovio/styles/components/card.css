@@ -1,0 +1,49 @@
+.card {
+    padding: 27px 30px 0 30px;
+    width: 250px;
+    height: 309px;
+    position: relative;
+}
+
+.card__header {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    width: 183px;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #4D533C;
+
+}
+
+.card__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #21384299;
+}
+
+.card__link {
+    position: absolute;
+    bottom: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.4px;
+    color: #D4D6D4;
+    text-decoration: underline;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.card__link>img {
+    filter: invert(20%) sepia(0%) saturate(1576%) hue-rotate(49deg) brightness(250%) contrast(100%);
+}
+
+.card__link:hover {
+    color: #FFD723;
+}
+
+.card__link:hover>img {
+    filter: invert(20%) sepia(250%) saturate(1576%) hue-rotate(49deg) brightness(250%) contrast(100%);
+}

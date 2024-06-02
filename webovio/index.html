@@ -6,16 +6,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/components/card.css" />
     <title>Webovio</title>
   </head>
   <body>
     <header class="header">
       <div class="header__wrapper">
-        <a>
+        <a href="#">
           <img src="./images/Logo.svg" />
         </a>
         <button class="menu">
@@ -33,10 +34,135 @@
               Anteelo is a leading strategic design firm that builds powerful
               digital solutions for startups and enterprises.
             </p>
-            <a class="hero__link"> Get in touch</a>
+            <a class="hero__link" href="#"
+              ><img src="./images/Arrow.svg" width="12" height="12" /> Get in
+              touch</a
+            >
           </div>
         </div>
       </section>
+      <section class="ways">
+        <div class="ways__wrapper">
+          <h2 class="ways__header">
+            Deation & Evaluation - Best Way to Kick off Your Product Idea
+          </h2>
+          <div class="ways__list">
+            <div class="card">
+              <h3 class="card__header">Product Design Sprint</h3>
+              <p class="card__desc">
+                A five-day workshop that will help you answer crucial business
+                questions
+              </p>
+              <a class="card__link" href="#"
+                ><img src="./images/Arrow.svg" width="12" height="12" /> Read
+                More</a
+              >
+            </div>
+            <div class="card">
+              <h3 class="card__header">Scoping Session</h3>
+              <p class="card__desc">
+                A workshop aimed at shaping your business idea, answering
+                questions regarding project planning
+              </p>
+              <a class="card__link" href="#"
+                ><img src="./images/Arrow.svg" width="12" height="12" /> Read
+                More</a
+              >
+            </div>
+            <div class="card">
+              <h3 class="card__header">UX Review</h3>
+              <p class="card__desc">
+                An evaluation which will help you radically improve your
+                product.
+              </p>
+              <a class="card__link" href="#"
+                ><img src="./images/Arrow.svg" width="12" height="12" /> Read
+                More</a
+              >
+            </div>
+            <div class="card">
+              <h3 class="card__header">Code Review</h3>
+              <p class="card__desc">
+                Do you know what one of the key secrets of success is what makes
+                people successful in business
+              </p>
+              <a class="card__link" href="#"
+                ><img src="./images/Arrow.svg" width="12" height="12" /> Read
+                More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="call">
+        <h2 class="call_header">
+          Let’s make something<br />
+          amazing together.
+        </h2>
+        <a href="#" class="call__link"
+          ><img src="./images/Arrow.svg" width="12" height="12" /> LET'S GET
+          STARTED</a
+        >
+      </section>
     </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="contacts">
+          <div>
+            <p class="contacts__header">Phone</p>
+            <p class="contacts__data">+32 50 31 28 32</p>
+          </div>
+          <div>
+            <p class="contacts__header">Address</p>
+            <p class="contacts__data">491 Merlin Crest Suite 963</p>
+          </div>
+        </div>
+        <div class="about">
+          <div class="about__part">
+            <div class="about__list">
+              <p class="about__part__header">services</p>
+              <div class="about__part_body">
+                <a href="#" class="about__part_link">Strategy Design</a>
+                <a href="#" class="about__part_link">Product Design</a>
+                <a href="#" class="about__part_link">Content Strategy</a>
+                <a href="#" class="about__part_link">Brand Strategy</a>
+                <a href="#" class="about__part_link">Development</a>
+              </div>
+            </div>
+            <div class="about__list">
+              <p class="about__part__header">Help And Advice</p>
+              <div class="about__part_body">
+                <a href="#" class="about__part_link">How it works</a>
+                <a href="#" class="about__part_link">Contact Support</a>
+                <a href="#" class="about__part_link">Privacy Policy</a>
+                <a href="#" class="about__part_link">FAQ</a>
+              </div>
+            </div>
+            <div class="about__list">
+              <p class="about__part__header">Company</p>
+              <div class="about__part_body">
+                <a href="#" class="about__part_link">About</a>
+                <a href="#" class="about__part_link">Blog</a>
+                <a href="#" class="about__part_link">Contact</a>
+                <a href="#" class="about__part_link">Jobs</a>
+              </div>
+            </div>
+          </div>
+          <div class="email">
+            <p class="email__head">Get in Touch</p>
+            <p class="email__text">
+              Feel free to get in touch with us<br />via email
+            </p>
+            <p class="email__addr">info.webovio@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <a href="#">
+            <img src="./images/logofooter.svg" />
+          </a>
+          <p class="copyright">© 2020@webovio. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
